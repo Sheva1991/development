@@ -1,0 +1,39 @@
+.nav {
+    position: relative;
+}
+
+.toggler {
+    cursor: pointer;
+    font-size: 3rem;
+    color: #fff;
+    padding: 5px 10px;
+    transition: 0.3s ease-in-out;
+
+    &:hover,
+    &:active {
+        color: #000;
+    }
+}
+
+.menu {
+    position: absolute;
+    background-color: rgb(75, 173, 223);
+
+    &__item {
+        padding: 5px 10px;
+
+        a {
+            font-size: 2rem;
+            color: #fff;
+            text-decoration: none;
+            transition: 0.3s ease-in-out;
+
+
+
+            &:hover,
+            &:active {
+                color: #000;
+            }
+        }
+    }
+}

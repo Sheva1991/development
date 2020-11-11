@@ -1,0 +1,25 @@
+.root {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: rgb(75, 173, 223);
+    transition: 0.3s ease-in-out;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    &:hover,
+    &:active {
+        color: #000;
+    }
+}
+
+.large {
+    font-size: 2rem;
+}
+
+.pagination {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+}

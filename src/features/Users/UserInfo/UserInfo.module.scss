@@ -1,0 +1,40 @@
+.root {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    width: 80%;
+}
+
+.links {
+    margin-top: 50px;
+
+    a {
+        margin: 20px;
+    }
+}
+
+.modal {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    height: 70%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__btns {
+        button {
+            margin-right: 20px;
+        }
+    }
+}

@@ -1,0 +1,33 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.item {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 992px) {
+    .item {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 756px) {
+    .item {
+        width: 80%;
+    }
+}
